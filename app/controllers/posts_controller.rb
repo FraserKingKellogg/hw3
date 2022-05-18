@@ -14,4 +14,5 @@ class PostsController < ApplicationController
         @post.save
         redirect_to "/places"
       end
+      
 end
